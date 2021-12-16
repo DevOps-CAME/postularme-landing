@@ -8,11 +8,16 @@
 
 .header-size-md #header-wrap #logo img{
 	padding: 5px;
+	height: 8rem;
 }
 
 .menu-item.current > .menu-link {
     text-decoration: underline 2px !important;
     text-underline-position: under;
+}
+
+.menu-item > .menu-link {
+	font-size: 1.25rem;
 }
 
 #pasos{
@@ -23,6 +28,39 @@
 	color: #fff;
 	margin: 0;
 }
+
+
+#btn_postulante.inactivo{
+	background-color: #E8E8E8 !important;
+	color: #03A1FC !important;
+}
+#btn_postulante.activo{
+	background-color: #03A1FC !important;
+	color: #fff !important;
+}
+#btn_empresa.activo{
+	background-color: #03A1FC !important;
+	color: #fff !important;
+}
+#btn_empresa.inactivo{
+	background-color: #E8E8E8 !important;
+	color: #03A1FC !important;
+}
+
+#btn_postulante{
+	font-size: 1.5rem;
+    border-radius: 5rem;
+    z-index: 1;
+    padding: 1rem 2rem 1rem 2rem;
+}
+#btn_empresa{
+	font-size: 1.5rem;
+    border-radius: 5rem;
+    z-index: 0;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+
 
 
 /* ----------------------------------------------------------------
@@ -344,7 +382,7 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 		margin-top: 15px;
 	}
 
-	#header:not(.sticky-header) #header-wrap .container { box-shadow: var(--headerboxshadow) }
+	#header:not(.sticky-header) #header-wrap .container {/* box-shadow: var(--headerboxshadow) */background-color: transparent;}
 
 	.menu-link {
 		text-transform: none;
@@ -378,7 +416,7 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 
 	.slider-title h3 {
 		color: #03A1FC;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		margin-bottom: 0;
 		font-weight: 800;
 	}
