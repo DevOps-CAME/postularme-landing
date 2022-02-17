@@ -102,14 +102,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $From = 'root@localhost';
+    public $From = 'postularme@came.org.ar';
 
     /**
      * The From name of the message.
      *
      * @var string
      */
-    public $FromName = 'Root User';
+    public $FromName = '[Postularme]';
 
     /**
      * The envelope sender of the message.
@@ -279,7 +279,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Host = 'localhost';
+    public $Host = 'mail.came.org.ar';
 
     /**
      * The default SMTP server port.
@@ -325,7 +325,7 @@ class PHPMailer
      *
      * @var bool
      */
-    public $SMTPAuth = false;
+    public $SMTPAuth = true;
 
     /**
      * Options array passed to stream_context_create when connecting via SMTP.
@@ -339,14 +339,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $Username = '';
+    public $Username = 'postularme@came.org.ar';
 
     /**
      * SMTP password.
      *
      * @var string
      */
-    public $Password = '';
+    public $Password = '$Postularcame8520$';
 
     /**
      * SMTP auth type.
@@ -354,7 +354,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $AuthType = '';
+    public $AuthType = 'LOGIN';
 
     /**
      * An instance of the PHPMailer OAuth class.

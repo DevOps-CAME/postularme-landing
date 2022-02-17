@@ -27,7 +27,7 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'postularme@came.org.ar', // Your Email Address
+				'email' => 'ggracis@came.org.ar', // Your Email Address
 				'name' => 'POSTULARME' // Your Name
 			);
 
@@ -67,12 +67,12 @@ $mail = new PHPMailer();
 ---------------------------------------------------*/
 
 $message = array(
-	'success'			=> 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
-	'error'				=> 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
-	'error_bot'			=> 'Bot Detected! Form could not be processed! Please Try Again!',
-	'error_unexpected'	=> 'An <strong>unexpected error</strong> occured. Please Try Again later.',
-	'recaptcha_invalid'	=> 'Captcha not Validated! Please Try Again!',
-	'recaptcha_error'	=> 'Captcha not Submitted! Please Try Again.'
+	'success'			=> 'Hemos recibido <strong>con éxito</strong> su mensaje y nos pondremos en contacto con usted lo antes posible.',
+	'error'				=> 'El correo electrónico <strong>no se pudo</strong> enviar debido a un error inesperado. Por favor, inténtelo de nuevo más tarde.',
+	'error_bot'			=> '¡Bot detectado! ¡No se pudo procesar el formulario! ¡Inténtalo de nuevo!',
+	'error_unexpected'	=> 'Se produjo un <strong>error inesperado</strong>. Por favor, inténtelo de nuevo más tarde.',
+	'recaptcha_invalid'	=> '¡Captcha no validado! ¡Inténtalo de nuevo!',
+	'recaptcha_error'	=> 'Captcha no enviado! Inténtalo de nuevo.'
 );
 
 

@@ -469,14 +469,14 @@
                               name="template-contactform"
                               action="include/form.php"
                               method="post"
-                            >
+                            enctype="multipart/form-data" novalidate="novalidate" _lpchecked="1">
                               <div class="col-12 form-group mb-3">
-                                <label for="template-contactform-name"
+                                <label for="template-contactform-nombre"
                                   >Nombre:*</label>
                                 <input
                                   type="text"
-                                  id="template-contactform-name"
-                                  name="template-contactform-name"
+                                  id="template-contactform-nombre"
+                                  name="template-contactform-nombre"
                                   class="form-control input-sm required"
                                   value=""
                                 />
@@ -525,6 +525,21 @@
                                 name="prefix"
                                 value="template-contactform-"
                               />
+                              <input
+                                type="hidden"
+                                name="subject"
+                                value="Contacto desde la web"
+                              />
+                              <input
+                                type="hidden"
+                                name="html_title"
+                                value="Contacto desde la web"
+                              />
+                              <div class="col-12 form-group d-none">
+                                <input type="text" id="template-contactform-botcheck"
+                                  name="template-contactform-botcheck" value=""
+                                  class="sm-form-control" />
+                              </div>
                             </form>
                           </div>
                         </div>
@@ -876,22 +891,22 @@
                       margin-top: 8px;
                       padding-right: 18px;
                       border-right: 1px solid #ddd;
-                      max-width: 10em;
+                      max-width: 7em;
                     "
                   /></a>
 
                   <!-- Logos
 				============================================= -->
                   <div id="logos">
-                    <h4 class="text-muted">Herramienta creada por</h4>
+                    <h4 class="text-muted mb-2">Herramienta creada por</h4>
                     <a href="https://redcame.org.ar" target="_blank"><img
                       src="images/logo_came.png"
-                      style="height: 6em"
+                      style="height: 4em"
                       alt="CAME"
                     /></a>
                     <a href="https://www.argentina.gob.ar/ejercito" target="_blank"> <img
                       src="images/logo_ejercito.png"
-                      style="height: 6em"
+                      style="height: 4em"
                       alt="Ejercito Argentino"
                     /></a>
                   </div>
