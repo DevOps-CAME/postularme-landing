@@ -27,7 +27,7 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'ggracis@came.org.ar', // Your Email Address
+				'email' => 'postularme@came.org.ar', // Your Email Address
 				'name' => 'POSTULARME' // Your Name
 			);
 
