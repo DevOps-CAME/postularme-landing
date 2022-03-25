@@ -63,6 +63,22 @@
   padding: 1rem 2rem 1rem 2rem;
 }
 
+  /* Slider Text
+	-----------------------------------------------------------------*/
+  .slider-title h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #657283;
+  }
+
+  .slider-title h3 {
+    color: #03a1fc;
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 800;
+  }
 /* ----------------------------------------------------------------
 	Canvas: SEO
 -----------------------------------------------------------------*/
@@ -425,22 +441,19 @@ input.switch-toggle-round + label::after {
     z-index: 399;
     margin-top: 15px;
     background: transparent;
-  }
+  } 
+}
 
-  /* Slider Text
-	-----------------------------------------------------------------*/
-  .slider-title h2 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    color: #657283;
-  }
 
-  .slider-title h3 {
-    color: #03a1fc;
-    font-size: 2rem;
-    margin-bottom: 0;
-    font-weight: 800;
+@media (max-width: 991.98px) {
+  
+ /* Slider 
+  -------------------------------*/
+  #slider{
+    background: url("../images/slide_bg.png") right 2rem / 110% no-repeat rgb(255, 255, 255) !important;
+  }
+  .slider-title h2{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
